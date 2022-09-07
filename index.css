@@ -1,0 +1,16 @@
+.flex-heading{
+position: relative;
+width: 1152px;
+height: 700px;
+
+background: #370617;
+}
+.container{
+display: flex;
+border: 5px;
+position: relative;
+width: 100%;
+min-height: 100%;
+padding: 25%;
+color: #370617;
+}
