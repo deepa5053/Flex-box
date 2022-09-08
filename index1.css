@@ -9,7 +9,26 @@
     justify-content: center;
 flex-direction: row;
 }
-.flex-container{
+.flex-container1{
+    margin: 10px;
+    padding: 20px;
+    background: #F48C06;
+    width: 468px;
+    height: 160px;
+    display: flex;
+}
+.flex-container1> div {
+    margin-top: 63px;
+    margin-left: 19px;
+    background: #9D0208;
+    padding: 20px;
+    margin: 20px;
+    width: 78px;
+    height: 78px;
+    align-items: baseline;
+    display: flex;
+}
+.flex-container2{
     margin: 10px;
     padding: 20px;
     background: #F48C06;
@@ -18,7 +37,83 @@ flex-direction: row;
     align-items: center;
     display: flex;
 }
-.flex-container > div {
+.flex-container2> div {
+    background: #9D0208;
+    padding: 20px;
+    margin: 20px;
+    width: 78px;
+    height: 120px;
+    flex-wrap: wrap;
+    align-items: center;
+    display: flex;
+}
+.flex-container3{
+    margin: 10px;
+    padding: 20px;
+    background: #F48C06;
+    width: 468px;
+    height: 160px;
+    align-items: center;
+    display: flex;
+}
+.flex-container3> div {
+    background: #9D0208;
+    padding: 20px;
+    margin: 20px;
+    width: 78px;
+    height: 78px;
+    flex-wrap: wrap;
+    align-items: center;
+    display: flex;
+}
+.flex-container4{
+    margin: 10px;
+    padding: 20px;
+    background: #F48C06;
+    width: 468px;
+    height: 160px;
+    align-items: center;
+    display: flex;
+}
+.flex-container4> div {
+    background: #9D0208;
+    padding: 20px;
+    margin: 20px;
+    width: 78px;
+    height: 78px;
+    flex-wrap: wrap;
+    align-items: center;
+    display: flex;
+}
+.flex-container5{
+    margin: 10px;
+    padding: 20px;
+    background: #F48C06;
+    width: 468px;
+    height: 160px;
+    align-items: center;
+    display: flex;
+}
+.flex-container5> div {
+    background: #9D0208;
+    padding: 20px;
+    margin: 20px;
+    width: 78px;
+    height: 78px;
+    flex-wrap: wrap;
+    align-items: center;
+    display: flex;
+}
+.flex-container6{
+    margin: 10px;
+    padding: 20px;
+    background: #F48C06;
+    width: 468px;
+    height: 160px;
+    align-items: center;
+    display: flex;
+}
+.flex-container6> div {
     background: #9D0208;
     padding: 20px;
     margin: 20px;
