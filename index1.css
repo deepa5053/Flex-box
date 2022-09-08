@@ -7,7 +7,7 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-flex-direction: row;
+    flex-direction: row;
 }
 .flex-container1 {
     align-items: flex-end;
@@ -17,12 +17,13 @@ flex-direction: row;
     width: 468px;
     height: 160px;
     display: flex;
+    justify-content: left;
 }
 .flex-container1> div {
     margin-top: 63px;
     margin-left: 19px;
     background: #9D0208;
-    padding: 20px;
+    padding: 2px;
     margin: 20px;
     width: 78px;
     height: 78px;
@@ -35,17 +36,16 @@ flex-direction: row;
     background: #F48C06;
     width: 468px;
     height: 160px;
-    align-items: center;
+    justify-content: center;
     display: flex;
 }
 .flex-container2> div {
     background: #9D0208;
-    padding: 20px;
-    margin: 20px;
+    padding: 2px;
+    margin: 10px;
     width: 78px;
     height: 120px;
     flex-wrap: wrap;
-    align-items: center;
     display: flex;
 }
 .flex-container3{
@@ -54,13 +54,14 @@ flex-direction: row;
     background: #F48C06;
     width: 468px;
     height: 160px;
+    justify-content: right;
     align-items: center;
     display: flex;
 }
 .flex-container3> div {
     background: #9D0208;
-    padding: 20px;
-    margin: 20px;
+    padding: 2px;
+    margin: 10px;
     width: 78px;
     height: 78px;
     flex-wrap: wrap;
@@ -68,22 +69,24 @@ flex-direction: row;
     display: flex;
 }
 .flex-container4{
-    justify-content: space-between;
-    align-self: flex-end;
     margin: 10px;
     padding: 20px;
     background: #F48C06;
     width: 468px;
     height: 160px;
     display: flex;
+    justify-content: space-between;
 }
 .flex-container4> div {
     background: #9D0208;
-    padding: 20px;
+    padding: 2px;
     margin: 20px;
     width: 78px;
     height: 78px;
     display: flex;
+}
+.self-align{
+    align-self: flex-end;
 }
 .flex-container5{
     margin: 10px;
@@ -91,13 +94,13 @@ flex-direction: row;
     background: #F48C06;
     width: 468px;
     height: 160px;
-    align-items: center;
+    justify-content: center;
     display: flex;
 }
 .flex-container5> div {
     background: #9D0208;
-    padding: 20px;
-    margin: 20px;
+    padding: 2px;
+    margin: 10px;
     width: 78px;
     height: 78px;
     color: white;
@@ -107,12 +110,13 @@ flex-direction: row;
 }
 .child{
     background: #9D0208;
-    padding: 20px;
+    padding: 2px;
     margin: 10px;
     width: 78px;
     height: 120px;
     color: white;
     display: flex;
+    align-items: stretch;
 }
 .flex-container6{
     margin: 10px;
@@ -125,11 +129,15 @@ flex-direction: row;
 }
 .flex-container6> div {
     background: #9D0208;
-    padding: 20px;
+    padding: 2px;
     margin: 20px;
     width: 78px;
     height: 78px;
     flex-wrap: wrap;
     align-items: center;
+    display: flex;
+}
+.child1{
+    flex-grow: 2;
     display: flex;
 }
