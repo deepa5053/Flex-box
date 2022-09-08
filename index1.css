@@ -1,0 +1,30 @@
+.flex-example{
+    background-color: #370617;
+    display: flex;
+    position: relative;
+    width: 1152px;
+    height: 700px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+flex-direction: row;
+}
+.flex-container{
+    margin: 10px;
+    padding: 20px;
+    background: #F48C06;
+    width: 468px;
+    height: 160px;
+    align-items: center;
+    display: flex;
+}
+.flex-container > div {
+    background: #9D0208;
+    padding: 20px;
+    margin: 20px;
+    width: 78px;
+    height: 78px;
+    flex-wrap: wrap;
+    align-items: center;
+    display: flex;
+}
