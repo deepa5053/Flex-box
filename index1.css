@@ -1,4 +1,4 @@
-.flex-example{
+.flex-example {
     background-color: #370617;
     display: flex;
     position: relative;
@@ -9,7 +9,8 @@
     justify-content: center;
 flex-direction: row;
 }
-.flex-container1{
+.flex-container1 {
+    align-items: flex-end;
     margin: 10px;
     padding: 20px;
     background: #F48C06;
@@ -28,7 +29,7 @@ flex-direction: row;
     align-items: baseline;
     display: flex;
 }
-.flex-container2{
+.flex-container2 {
     margin: 10px;
     padding: 20px;
     background: #F48C06;
@@ -67,12 +68,13 @@ flex-direction: row;
     display: flex;
 }
 .flex-container4{
+    justify-content: space-between;
+    align-self: flex-end;
     margin: 10px;
     padding: 20px;
     background: #F48C06;
     width: 468px;
     height: 160px;
-    align-items: center;
     display: flex;
 }
 .flex-container4> div {
@@ -81,8 +83,6 @@ flex-direction: row;
     margin: 20px;
     width: 78px;
     height: 78px;
-    flex-wrap: wrap;
-    align-items: center;
     display: flex;
 }
 .flex-container5{
@@ -103,6 +103,15 @@ flex-direction: row;
     color: white;
     flex-wrap: wrap;
     align-items: center;
+    display: flex;
+}
+.child{
+    background: #9D0208;
+    padding: 20px;
+    margin: 10px;
+    width: 78px;
+    height: 120px;
+    color: white;
     display: flex;
 }
 .flex-container6{
