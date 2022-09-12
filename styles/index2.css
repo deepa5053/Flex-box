@@ -1,6 +1,6 @@
 .flex-example{
-display: flex;
 position: relative;
+display: flex;
 width: 1152px;
 height: 700px;
 background: #FAA307;
@@ -10,8 +10,6 @@ justify-content: center;
 flex-direction: row;
 }
 .flex-container1{
-margin-top: 120px;
-margin-left: 146px;
 width: 273px;
 height: 220px;
 margin: 10px;
@@ -27,12 +25,10 @@ height: 50px;
 background-color: #748CAB;
 display: flex;
 padding: 2px;
-margin: 20px;
+margin: 10px;
 border-radius: 50%;
 }
 .flex-container2{
-    margin-top: 120px;
-margin-left: 146px;
 flex-wrap: wrap;
 width: 273px;
 height: 220px;
@@ -48,12 +44,13 @@ height: 50px;
 background-color: #748CAB;
 display: flex;
 padding: 2px;
-margin: 20px;
+margin: 10px;
 border-radius: 50%;
 }
+.self-align{
+align-self: flex-end;
+}
 .flex-container3{
-    margin-top: 120px;
-margin-left: 146px;
     width: 273px;
     height: 220px;
     margin: 10px;
@@ -61,7 +58,7 @@ margin-left: 146px;
     background-color: #03071E;
     display: flex;   
     flex-wrap: wrap;
-    justify-content: left;
+    justify-content: space-between;
 }
 .flex-container3> div{
     width: 50px;
@@ -69,12 +66,10 @@ margin-left: 146px;
     background-color: #748CAB;
     display: flex;
     padding: 2px;
-    margin: 20px;
+    margin: 10px;
     border-radius: 50%;
     }
 .flex-container4{
-    margin-top: 360px;
-    margin-left: 146px;
     flex-wrap: wrap;
     width: 273px;
     height: 220px;
@@ -91,6 +86,25 @@ margin-left: 146px;
     background-color: #748CAB;
     display: flex;
     padding: 2px;
-    margin: 20px;
+    margin: 10px;
     border-radius: 50%;
     }
+    .flex-container5{
+        width: 273px;
+        height: 220px;
+        margin: 10px;
+        padding: 20px;
+        background-color: #03071E;
+        display: flex;   
+        flex-wrap: wrap;
+        justify-content: left;
+    }
+    .flex-container5> div{
+        width: 50px;
+        height: 50px;
+        background-color: #748CAB;
+        display: flex;
+        padding: 2px;
+        margin: 10px;
+        border-radius: 50%;
+        }
